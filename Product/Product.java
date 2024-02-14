@@ -18,7 +18,27 @@ public class Product{
         else
             return p3;
     }
-    public String toString(Product p){
-        return "[ Name : " + p.name + " Code : " + p.pcode + " Price : " + p.price + " ]";
+    public String toString(){
+        return "[ Name : " + name + " Code : " + pcode + " Price : " + price + " ]";
     }
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getPcode() {
+        return pcode;
+    }
+    public void setPcode(int pcode) {
+        this.pcode = pcode;
+    }
+    
+    
 }
